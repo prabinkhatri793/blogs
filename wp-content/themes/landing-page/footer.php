@@ -101,6 +101,19 @@ $('.owl-carousel').owlCarousel({
     }
 });
 </script>
+<script>
+    function toggleWebLinks() {
+    const links = document.getElementById('web-links');
+    if (links.classList.contains('hidden')) {
+        links.classList.remove('hidden');
+        links.style.opacity = '1';
+    } else {
+        links.classList.add('hidden');
+        links.style.opacity = '0';
+    }
+}
+
+</script>
 <?php wp_footer(); ?>
 </body>
 

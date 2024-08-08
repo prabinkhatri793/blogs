@@ -1320,3 +1320,71 @@ ul.navbar-nav.sn-navbar-nav.ms-auto.mt-2.mt-lg-0.social-media-links {
 .breadcrumb-item a{
     color: #00a9a3;
 }
+
+/*Start Web Icons */
+#web-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+#web-links img {
+    width: 32px; /* Or any size you prefer */
+    height: 32px; /* Or any size you prefer */
+    margin: auto;
+}
+
+#web-pop-bottom {
+/*    top: 20px;*/
+    right: 20px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.web-button {
+/*    position: absolute;*/
+    right: 0;
+    z-index: 9999999;
+    background-color: #00a9a3;
+    color: white;
+    font-size: 30px;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.web-button:hover {
+    transform: scale(1.1);
+}
+
+#web-links {
+/*    right: 15px;*/
+    position: absolute;
+    flex-direction: column;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+}
+
+#web-links li.web{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    list-style: none;
+    margin: 5px;
+    border: 2px solid #3333;
+}
+
+.hidden {
+    display: none;
+}
+/*End web icons*/

@@ -53,7 +53,7 @@
 					                <h3>Recent Posts</h3>
 					            </div>
 					            <div class="view-all">
-					                <a href="http://localhost/blogs/recent-post/"><i class="fas fa-long-arrow-alt-right"></i> View All</a>
+					                <a href="https://blog.gowithfund.com/recent-post/"><i class="fas fa-long-arrow-alt-right"></i> View All</a>
 					            </div>
 					        </div>
 					        <div class="blog-posts">

@@ -95,12 +95,21 @@
                     wp_nav_menu(array('theme_location' => 'menu-1', 'container_class' => 'stellarnav'));
                     ?>
                 </div>
-                <div class="search-bar">
-                  <form action="<?php echo home_url();?>" method="get">
-                    <input type="text" name="s" placeholder="Search..." class="form-control">
-                    <button type="submit" class="btn"><i class="fas fa-search" aria-hidden="true"></i></button>
+                <div class="search-bar hidden md:flex items-center">
+                  <form action="<?php echo home_url();?>" method="get" class="flex items-center">
+                    <input type="text" name="s" placeholder="Search..." class="form-control px-2 py-1">
+                    <button type="submit" class="btn px-2 py-1"><i class="fas fa-search" aria-hidden="true"></i></button>
                   </form>
                 </div>
+                <!-- Social Media Pop Bottom -->
+                <?php if ( is_active_sidebar( 'custom-widget-area' ) ) : ?>
+                            <div id="custom-widget-area" class="widget-area">
+                                <?php dynamic_sidebar( 'custom-widget-area' ); ?>
+                            </div>
+                        <?php endif; ?>
+                
+                </div>
+
             </nav>
         </div>
     </div>

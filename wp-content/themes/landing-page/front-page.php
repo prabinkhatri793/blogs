@@ -4,7 +4,7 @@
    <header>
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <img src="http://localhost/blogs/wp-content/uploads/2024/08/depositphotos_215132512-stock-photo-chef-cook-preparing-vegetables-his.webp" alt="images not found">
+                    <img src="https://blog.gowithfund.com/wp-content/uploads/2024/08/depositphotos_215132512-stock-photo-chef-cook-preparing-vegetables-his.webp" alt="images not found">
                     <div class="cover">
                         <div class="container">
                             <div class="header-content">
@@ -17,7 +17,7 @@
                      </div>
                 </div>                    
                 <div class="item">
-                    <img src="http://localhost/blogs/wp-content/uploads/2024/08/tech-news-post-featured-img-28.jpg" alt="images not found">
+                    <img src="https://blog.gowithfund.com/wp-content/uploads/2024/08/tech-news-post-featured-img-28.jpg" alt="images not found">
                     <div class="cover">
                         <div class="container">
                             <div class="header-content">
@@ -30,7 +30,7 @@
                      </div>
                 </div>                
                 <div class="item">
-                    <img src="http://localhost/blogs/wp-content/uploads/2024/08/computer-2982270_640.jpg" alt="images not found">
+                    <img src="https://blog.gowithfund.com/wp-content/uploads/2024/08/computer-2982270_640.jpg" alt="images not found">
                     <div class="cover">
                         <div class="container">
                             <div class="header-content">
@@ -92,7 +92,7 @@
                                     <h3>Popular Posts</h3>
                                 </div>
                                 <div class="view-all">
-                                    <a href="http://localhost/blogs/popular-posts/"><i class="fas fa-long-arrow-alt-right"></i> View All</a>
+                                    <a href="https://blog.gowithfund.com/popular-posts/"><i class="fas fa-long-arrow-alt-right"></i> View All</a>
                                 </div>
                             </div>
                             <ul class="blog-posts">
@@ -185,10 +185,10 @@
     <div class="container">
         <div class="heading-section d-flex justify-content-between align-items-center">
             <div class="category-name">
-                <h3>Must Read</h3>
+                <h3>Podcasts</h3>
             </div>
             <div class="view-all">
-                <a href="<?php echo get_category_link(get_cat_ID('apps')); ?>"><i class="fas fa-long-arrow-alt-right"></i> View More</a>
+                <a href="<?php echo get_category_link(get_cat_ID('podcasts')); ?>"><i class="fas fa-long-arrow-alt-right"></i> More in Podcasts</a>
             </div>
         </div>
         <div class="blog-posts">
@@ -334,7 +334,7 @@
                             <h3>Recent Posts</h3>
                         </div>
                         <div class="view-all">
-                            <a href="http://localhost/blogs/recent-post/">
+                            <a href="https://blog.gowithfund.com/recent-post/">
                                 <i class="fas fa-long-arrow-alt-right"></i> View All
                             </a>
                         </div>

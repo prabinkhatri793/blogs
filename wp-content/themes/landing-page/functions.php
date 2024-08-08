@@ -419,3 +419,19 @@ class Walker_Category_Custom extends Walker_Category {
         }
     }
 }
+
+
+// Register the Web Media Pop Bottom Widget
+
+
+function custom_widget_area() {
+    register_sidebar(array(
+        'name'          => __('Custom Widget Area', 'text_domain'),
+        'id'            => 'custom-widget-area',
+        'before_widget' => '<div class="widget-area">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+}
+add_action('widgets_init', 'custom_widget_area');
