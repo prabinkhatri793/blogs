@@ -103,13 +103,10 @@
                 </div>
                 <!-- Social Media Pop Bottom -->
                 <?php if ( is_active_sidebar( 'custom-widget-area' ) ) : ?>
-                            <div id="custom-widget-area" class="widget-area">
-                                <?php dynamic_sidebar( 'custom-widget-area' ); ?>
-                            </div>
-                        <?php endif; ?>
-                
-                </div>
-
+                    <div id="custom-widget-area" class="widget-area">
+                        <?php dynamic_sidebar( 'custom-widget-area' ); ?>
+                    </div>
+                <?php endif; ?>
             </nav>
         </div>
     </div>

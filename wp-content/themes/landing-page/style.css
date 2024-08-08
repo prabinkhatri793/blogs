@@ -1342,21 +1342,7 @@ ul.navbar-nav.sn-navbar-nav.ms-auto.mt-2.mt-lg-0.social-media-links {
     text-align: center;
 }
 
-.web-button {
-/*    position: absolute;*/
-    right: 0;
-    z-index: 9999999;
-    background-color: #00a9a3;
-    color: white;
-    font-size: 30px;
-    padding: 3px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
+.web-button {/*    position: absolute;*/right: 0;z-index: 9999999;background-color: #00a9a3;color: white;font-size: 24px;padding: 3px;width: 40px;height: 40px;border-radius: 50%;cursor: pointer;box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);transition: transform 0.3s ease;}
 
 .web-button:hover {
     transform: scale(1.1);
@@ -1372,6 +1358,9 @@ ul.navbar-nav.sn-navbar-nav.ms-auto.mt-2.mt-lg-0.social-media-links {
     background: #fff;
     padding: 20px;
     width: 250px;
+}
+div#custom-widget-area {
+    padding: 3px 0;
 }
 
 #web-links li.web{
