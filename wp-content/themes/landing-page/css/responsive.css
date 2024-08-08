@@ -1,0 +1,95 @@
+@media (min-width: 1599.5px) {
+   
+}
+@media (max-width: 1400px) {
+    
+}
+@media (max-width: 1199.5px) {
+    
+}
+@media (max-width: 991.5px) {
+   .service-image {
+        padding: 30px;
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+    }
+    .row.background{
+        background: #fff;
+    }
+}
+@media (max-width: 768px) {
+    .sn-header.top{
+        display:none;
+    }
+    .sn-header .manu {
+        width: 20%;
+    }
+    a.logo {
+        width: auto;
+    }
+    .sn-header .phone {
+        float: right;
+        width: 45%;
+    }
+    .sn-header .phone a {
+        font-size: 16px;
+    }
+    .sn-quotes{
+        height:auto !important;
+    }
+    .sn-quotes p label {
+        width: calc(100% / 2) !important;
+    }
+    .sn-quotes input[type="submit"] {
+        background: #333;
+        margin-left: 0;
+        width: calc((100% / 1) - 10px);
+    }
+    .row.background .text {
+        padding: 15px;
+        margin: 0px !important;
+        text-align: center !important;
+        border: 2px solid #ededed;
+        margin-top: 20px !important;
+        border-radius: 10px;
+    }
+    .service-image {
+        padding: 0px;
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    .sn-info-content {
+        padding: 20px 15px 30px;
+    }
+    .profile-card {
+        margin: 20px auto !important;
+    }
+    section.faqs{
+        padding: 60px 0px;
+    }
+    .blog-details-content ul.blog-icons li {
+        padding-right: 20px !important;
+    }
+    
+}
+@media (max-width: 575.5px) {
+    .sn-header .manu {
+        width: 22%;
+    }
+    a.logo {
+        width: 137px;
+    }
+    .sn-header .phone {
+        float: right;
+        width: 34%;
+    }
+    .sn-header .phone a {
+        font-size: 14px;
+    }
+    span.wpcf7-form-control-wrap {
+        width: calc(100% / 2);
+        height:auto;
+    }
+}

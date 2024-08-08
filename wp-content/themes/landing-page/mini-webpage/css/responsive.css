@@ -1,0 +1,12 @@
+@media (max-width:1199.5px){.location::before,.phone-btn{display:none}}@media (max-width:991.5px){.mt{margin-top:60px}.mb{margin-bottom:60px}.pt{padding-top:60px}.pb{padding-bottom:60px}.line,.newsletter-right,.newsletter::before{display:none}.banner-wrap,.banner2-wrap{flex-direction:column;align-items:normal}.banner-left,.banner2-left{text-align:center;margin-right:0}.banner-left li,.banner2-left li{text-align:left}.banner-left p{margin:auto}.banner-form,.banner2-form{max-width:60%;margin:40px auto 0}.banner3{background-image:linear-gradient(to right,#00a94f,#3bae4d,#57b34c,#6eb84d,#82bc4e)}.works-wrap ul{justify-content:center}.location-right{margin-top:40px}.section-title p{max-width:80%}.main-content{margin-top:20px}.works-wrap ul li{margin:15px}}@media (max-width:768px){.top-header{display:none}.contact-image,.testimonial-image{display:none}.banner,.banner2{background-size:0}.banner-wrap,.banner2-wrap{padding:50px 0}.banner-form,.banner2-form{max-width:80%}.section-title p{max-width:100%}}@media (max-width:575.5px){.mt{margin-top:50px}.mb{margin-bottom:50px}.pt{padding-top:50px}.pb{padding-bottom:50px}.location-left h2,.newsletter-left h3,.section-title h2,section.call-to h2{font-size:32px}.section-title{margin-bottom:40px}.note {
+		width: 91% !important;
+        margin:0px !important;
+	}
+	.note h3{
+		margin-top: -3px !important;
+		font-size: 14px !important;;
+	}
+    .banner-wrap, .banner2-wrap {
+        padding: 50px 0 0px !important;
+    }
+    .main-content{padding:20px}.banner-form,.banner2-form{max-width:95%}.banner-left h1,.banner2-left h1{font-size:30px}}
