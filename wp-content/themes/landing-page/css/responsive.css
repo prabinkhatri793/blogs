@@ -122,6 +122,8 @@
     }
     a.logo {
         width: 100%;
+        text-align: center;
+        margin-bottom: 3px;
     }
     .sn-header .phone {
         float: right;
